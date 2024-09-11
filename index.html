@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">Please Enter the Temperature you'd like to convert</div>
+        <div class="inputs">
+            <input type="number" name="number" id="number">
+            <select name="degree" id="degrees">
+                <option value="celsius" id="degree">ºCelsius</option>
+                <option value="Farheneit" id="degree">ºFarheneit</option>
+            </select>
+        </div>
+        <div id="answer"></div>
+        <div>
+            <button id="submit" onclick="calculate()">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
